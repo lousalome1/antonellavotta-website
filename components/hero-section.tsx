@@ -40,7 +40,7 @@ export function HeroSection() {
           </p>
 
           <div className="mt-12">
-            
+            <a
               href="#contact"
               className="inline-flex items-center justify-center rounded-none border border-accent bg-accent px-7 py-3 text-sm font-medium tracking-[0.08em] text-primary transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#d5af58] hover:shadow-lg"
             >
