@@ -8,20 +8,30 @@ export function HeroSection() {
     >
       {/* Background */}
       <div className="absolute inset-0">
+
+        {/* HERO MOBILE */}
+        <Image
+          src="/hero-banner-mobile.png"
+          alt="Avvocata Antonella Votta"
+          fill
+          priority
+          className="object-cover object-top md:hidden"
+        />
+
+        {/* HERO DESKTOP */}
         <Image
           src="/hero-banner.png"
           alt="Avvocata Antonella Votta"
           fill
           priority
-          className="
-            object-cover
-            object-[82%_38%]
-            md:object-[73%_38%]
-          "
+          className="hidden object-cover object-[73%_38%] md:block"
         />
 
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#faf8f4]/78 via-[#faf8f4]/42 via-[55%] to-transparent" />
+        {/* Overlay Desktop */}
+        <div className="absolute inset-0 hidden md:block bg-gradient-to-r from-[#faf8f4]/78 via-[#faf8f4]/42 via-[55%] to-transparent" />
+
+        {/* Overlay Mobile */}
+        <div className="absolute inset-0 md:hidden bg-gradient-to-b from-[#faf8f4]/82 via-[#faf8f4]/55 via-[45%] to-transparent" />
       </div>
 
       {/* Contenuto */}
