@@ -15,7 +15,7 @@ export function HeroSection() {
           alt="Avvocata Antonella Votta"
           fill
           priority
-          className="object-cover object-top md:hidden"
+          className="object-cover object-center md:hidden"
         />
 
         {/* HERO DESKTOP */}
@@ -24,14 +24,15 @@ export function HeroSection() {
           alt="Avvocata Antonella Votta"
           fill
           priority
-          className="hidden object-cover object-[73%_38%] md:block"
+          className="hidden md:block object-cover object-[73%_38%]"
         />
 
         {/* Overlay Desktop */}
         <div className="absolute inset-0 hidden md:block bg-gradient-to-r from-[#faf8f4]/78 via-[#faf8f4]/42 via-[55%] to-transparent" />
 
         {/* Overlay Mobile */}
-        <div className="absolute inset-0 md:hidden bg-gradient-to-b from-[#faf8f4]/82 via-[#faf8f4]/55 via-[45%] to-transparent" />
+        <div className="absolute inset-0 md:hidden bg-gradient-to-b from-[#faf8f4]/15 via-[#faf8f4]/35 to-[#faf8f4]/88" />
+
       </div>
 
       {/* Contenuto */}
