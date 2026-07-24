@@ -13,11 +13,11 @@ export function HeroSection() {
           alt="Avvocata Antonella Votta"
           fill
           priority
-          className="object-cover object-[73%_38%]"
+          className="object-cover object-[85%_38%] md:object-[73%_38%]"
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#faf8f4]/78 via-[#faf8f4]/42 via-[55%] to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#faf8f4]/82 via-[#faf8f4]/60 via-[62%] to-transparent" />
       </div>
 
       {/* Contenuto */}
@@ -52,7 +52,8 @@ export function HeroSection() {
 
           {/* Bottone */}
           <div className="mt-12">
-            <a
+           <a
+  href="#contact"
   className="
     inline-flex
     items-center
@@ -74,8 +75,8 @@ export function HeroSection() {
     hover:shadow-lg
   "
 >
-              Richiedi una consulenza
-            </a>
+  Richiedi una consulenza
+</a>
           </div>
 
         </div>
