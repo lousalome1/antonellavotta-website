@@ -13,7 +13,7 @@ export function HeroSection() {
           alt="Avvocata Antonella Votta"
           fill
           priority
-          className="object-cover object-[95%_38%] md:object-[73%_38%]"
+          className="object-cover object-[65%_38%] md:object-[73%_38%]"
         />
 
         {/* Overlay */}
