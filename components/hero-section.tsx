@@ -11,7 +11,7 @@ export function HeroSection() {
 
         {/* HERO MOBILE */}
         <Image
-          src="/hero-banner-mobile.png"
+          src="/hero-mobile.png"
           alt="Avvocata Antonella Votta"
           fill
           priority
