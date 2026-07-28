@@ -60,9 +60,7 @@ export function HeroSection() {
 
           {/* Testo */}
           <p className="mt-8 max-w-[30rem] text-lg leading-9 text-foreground/85">
-            Sono un'avvocata penalista, specializzata in reati informatici.
-            Assisto inoltre imprese e cittadini in materia di consumatori,
-            privacy e nuove tecnologie.
+            Assisto cittadini e imprese in materia penale, con un'attenzione specifica ai reati informatici, e nelle questioni giuridiche legate alla privacy, all'intelligenza artificiale e alla tutela dei consumatori.
           </p>
 
           {/* Bottone */}
